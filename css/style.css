@@ -1,0 +1,76 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    background-color: #E9EFFB;
+}
+
+.layaout{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layaout__main{
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layaout__container-crono{
+    margin-bottom: 1rem;
+
+}
+
+.layaout__crono{
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.layaout__btns{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.layaout__btn-start, .layaout__btn-stop, .layaout__btn-reset{
+    width: 100%;
+    border: none;
+    background-color: #ec3d3d;
+    color: white;
+    font-weight: 600;
+    padding: 1rem 0rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+
+.layaout__btn-stop{
+    background-color: #ccc;
+    transition: all .3s ease-out;
+}
+
+.layaout__btn-start:hover{
+    background-color: green;
+}
+
+.layaout__btn-stop:hover{
+    background-color: black;
+}
+
+.layaout__btn-reset{
+    background-color: black;
+    transition: all .3s ease;
+}
+
+.layaout__btn-reset:hover{
+    background-color: green;
+}
